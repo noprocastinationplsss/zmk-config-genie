@@ -4,12 +4,7 @@
     physical_layout_genie: physical_layout_genie {
         compatible = "zmk,physical-layout";
         display-name = "LAYOUT";
-
-
-        &physical_layout0 {
-            kscan = <&kscan0>; // Label of the kscan node this layout uses
-            transform = <&keymap_transform_0>; // Label of the matrix transform this layout uses
-};
+        
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   71  (-500)    50   121>
