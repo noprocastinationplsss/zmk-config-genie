@@ -10,7 +10,13 @@
                 Y*/
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R  &trans  &kp A  &kp S  &kp D  &kp F  &trans  &kp Z  &kp X  &kp C  &kp V  &trans  &trans  &kp T  &kp G  &kp B  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp P  &kp I  &kp U  &trans  &kp SQT  &kp L  &kp K  &kp J  &trans  &kp RIGHT_BRACKET  &kp SLASH  &kp PERIOD  &kp M  &trans  &trans  &kp Y  &kp H  &kp N  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Q  &kp W  &kp E  &kp R  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp LALT  &kp SPACE  &kp T  &kp G  &kp B  &trans  &kp ENTER  &trans  &trans  &trans  &trans  &kp SEMI  &kp O  &kp I  &kp U  &trans  &kp P  &kp L  &kp K  &kp J  &trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M  &trans  &kp BSPC  &kp Y  &kp H  &kp N  &trans  &kp LCTRL  &trans  &trans  &trans
+            >;
+        };
+
+        symbols {
+            bindings = <
+&trans  &trans  &trans  &kp LBKT  &kp RBKT  &trans  &kp N3  &kp N2  &kp N1  &kp N0  &sk LBKT  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &trans  &trans  &kp N4  &kp F5  &trans  &trans  &trans  &trans  &sk F6  &trans  &trans  &trans  &trans  &trans  &trans  &kp N9  &kp N8  &kp N7  &kp N6  &trans  &sk F12  &sk F11  &sk F10  &sk F9  &trans  &trans  &kp MINUS  &kp N5  &sk F8  &trans  &trans  &trans  &trans  &sk F7
             >;
         };
     };
