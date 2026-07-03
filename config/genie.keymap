@@ -8,6 +8,9 @@
         default_layer { // Layer 0
             /*  Q       W       E       R       T 
                 Y*/
+
+            bindings = <
+
                 &none    &kp Q   &kp W   &kp E   &kp R 
                 &none    &kp A   &kp S   &kp D   &kp F 
                 &none    &kp Z   &kp X   &kp C   &kp V 
