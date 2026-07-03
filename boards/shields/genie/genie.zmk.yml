@@ -1,6 +1,6 @@
 file_format: "1"
-id: myboard
-name: MyBoard
+id: genie
+name: genie
 type: shield
 url: https://github.com/noprocastinationplsss/zmk-config-genie
 requires: [nice_nano_v2]

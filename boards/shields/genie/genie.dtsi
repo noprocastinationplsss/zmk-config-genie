@@ -1,4 +1,4 @@
-//   #include "genie-layouts.dtsi"
+#include "genie-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 / {
     chosen {
