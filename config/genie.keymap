@@ -13,7 +13,7 @@
 
         numbersAndFkeys {
             bindings = <
-&kp H  &kp T  &kp Y  &kp LBKT  &kp RBKT  &kp D  &kp N3  &kp N2  &kp N1  &kp N0  &sk LBKT  &kp F1  &kp F2  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp Q  &kt W  &kp F3  &kp N4  &kp F5  &kp R  &kp F  &kp F4  &kp F8  &sk F6  &kp RSHFT  &kp LGUI  &kp GRAVE  &kp RIGHT_BRACE  &kp LEFT_BRACE  &kp LSHFT  &kp N9  &kp N8  &kp N7  &kp N6  &kp RALT  &sk F12  &sk F11  &sk F10  &sk F9  &kp I  &kp O  &kp MINUS  &kp N5  &sk PLUS  &kp N  &kp P  &kp PLUS  &kp  &sk F7
+&kp H  &kp T  &kp Y  &kp LBKT  &kp RBKT  &kp D  &kp N3  &kp N2  &kp N1  &kp N0  &sk LBKT  &kp F1  &kp F2  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp Q  &kt W  &kp F3  &kp N4  &kp F5  &kp R  &kp F  &kp F4  &kp F8  &sk F6  &kp RSHFT  &kp LGUI  &kp GRAVE  &kp RIGHT_BRACE  &kp LEFT_BRACE  &kp LSHFT  &kp N9  &kp N8  &kp N7  &kp N6  &kp RALT  &sk F12  &sk F11  &sk F10  &sk F9  &kp I  &kp O  &kp MINUS  &kp N5  &sk PLUS  &kp N  &kp P  &kp PLUS  &trans  &sk F7
             >;
         };
     };
