@@ -1,3 +1,5 @@
+name: zmk-keyboard-genie
+
 build:
   settings:
     board_root: .
