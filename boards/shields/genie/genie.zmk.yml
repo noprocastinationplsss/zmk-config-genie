@@ -3,8 +3,11 @@ id: genie
 name: genie
 type: shield
 url: https://github.com/noprocastinationplsss/zmk-config-genie
-requires: [nice_nano_v2]
-features: [keys, underglow]
+requires: 
+  - nice_nano_v2
+features: 
+  - keys
+  - underglow 
 siblings:
-  - myboard_left
-  - myboard_right
+  - genie_left
+  - genie_right
