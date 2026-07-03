@@ -1,0 +1,32 @@
+#the below code names the left side of the keyboard and 
+#makes its central part of the split keyboard
+
+if SHIELD_GENIE_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "genie"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif # SHIELD_GENIE_LEFT
+
+if SHIELD_GENIE_LEFT || SHIELD_GENIE_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif	
+#   commented out the below part bcz its AI
+#  if SHIELD_MYBOARD_LEFT || SHIELD_MYBOARD_RIGHT
+#  
+#  config ZMK_RGB_UNDERGLOW
+#  	default y
+#  
+#  config WS2812_STRIP
+#  	default y
+#  
+#  config SPI
+#  	default n
+#  
+#  endif

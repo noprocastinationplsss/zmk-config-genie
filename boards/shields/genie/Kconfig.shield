@@ -1,0 +1,5 @@
+config SHIELD_GENIE_LEFT
+	def_bool $(shields_list_contains,genie_left)
+
+config SHIELD_GENIE_RIGHT
+	def_bool $(shields_list_contains,genie_right)
