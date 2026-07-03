@@ -1,4 +1,4 @@
-#include <behaviors.dtsi>
+    #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -6,14 +6,20 @@
         compatible = "zmk,keymap";
 
         default_layer { // Layer 0
-            // -------------------------------------
-            // |     Q     |    W  |    E   |   R   |   T   |
-            // |     A     |    B  |    C   |
-            // |     D     |    E  |    F   |
-            bindings = <
-                &kp Z    &kp M    &kp K
-                &kp A    &kp B    &kp C
-                &kp D    &kp E    &kp F
+            /*  Q       W       E       R       T 
+                Y*/
+                &none    &kp Q   &kp W   &kp E   &kp R 
+                &none    &kp A   &kp S   &kp D   &kp F 
+                &none    &kp Z   &kp X   &kp C   &kp V 
+                &none    &none   &kp T   &kp G   &kp B 
+                &none    &none   &none   &none   &none 
+
+                &none    &none   &none   &none   &none 
+                &none    &none   &none   &none   &none 
+                &none    &none   &none   &none   &none 
+                &none    &none   &none   &none   &none 
+                &none    &none   &none   &none   &none 
+
             >;
         };
     };
