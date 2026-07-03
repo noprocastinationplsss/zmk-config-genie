@@ -12,7 +12,7 @@
                     &kp ESC  &kp Z  &kp X  &kp C  &kp V  
                     &kp LALT  &kp SPACE  &kp T  &kp G  &kp B  
                     &kp LSHFT  &kp ENTER  &trans  &trans  &trans  
-                    
+
                     &kp MINUS  &kp SEMI  &kp O  &kp I  &kp U  
                     &kp APOS  &kp P  &kp L  &kp K  &kp J  
                     &kp BSLH  &kp FSLH  &kp DOT  &kp COMMA  &kp M  
@@ -29,7 +29,7 @@
                     &kp  &kp  &kp  &kp N4  &kp F5  
                     &kp  &kp  &kp  &kp  &sk F6  
 
-                    &kp  &kp ) &kp ( &kp }  &kp { 
+                    &kp  &kp  &kp  &kp }  &kp { 
                     &kp  &kp N9  &kp N8  &kp N7  &kp N6  
                     &kp  &sk F12  &sk F11  &sk F10  &sk F9  
                     &kp  &kp  &kp MINUS  &kp N5  &sk F8  
