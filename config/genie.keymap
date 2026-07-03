@@ -7,13 +7,13 @@
 
         default_layer {
             bindings = <
-&kp CAPS  &kp Q  &kp W  &kp E  &kp R  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp LALT  &kp SPACE  &kp T  &kp G  &kp B  &kp LSHFT  &kp ENTER  &trans  &trans  &trans  &kp MINUS  &kp SEMI  &kp O  &kp I  &kp U  &kp APOS  &kp P  &kp L  &kp K  &kp J  &kp BSLH  &kp FSLH  &kp DOT  &kp COMMA  &kp M  &kp LGUI  &kp BSPC  &kp Y  &kp H  &kp N  &kp RSHFT  &kp LCTRL  &trans  &trans  &trans
+&kp CAPS  &kp Q  &kp W  &kp E  &kp R  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp LALT  &kp SPACE  &kp T  &kp G  &kp B  &kp LSHFT  &kp ENTER  &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &kp K_PREV  &kp MINUS  &kp SEMI  &kp O  &kp I  &kp U  &kp APOS  &kp P  &kp L  &kp K  &kp J  &kp BSLH  &kp FSLH  &kp DOT  &kp COMMA  &kp M  &kp LGUI  &kp BSPC  &kp Y  &kp H  &kp N  &kp RSHFT  &kp LCTRL  &kp PRINTSCREEN  &kp C_AL_SPELL  &kp K_NEXT
             >;
         };
 
         numbersAndFkeys {
             bindings = <
-&kp  &kp  &kp  &kp LBKT  &kp RBKT  &kp  &kp N3  &kp N2  &kp N1  &kp N0  &sk LBKT  &kp F1  &kp F2  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp  &kp  &kp  &kp N4  &kp F5  &kp  &kp  &kp  &kp  &sk F6  &kp  &kp  &kp  &kp RIGHT_BRACE  &kp LEFT_BRACE  &kp  &kp N9  &kp N8  &kp N7  &kp N6  &kp  &sk F12  &sk F11  &sk F10  &sk F9  &kp  &kp  &kp MINUS  &kp N5  &sk PLUS  &kp  &kp  &kp PLUS  &kp  &sk F7
+&kp H  &kp T  &kp Y  &kp LBKT  &kp RBKT  &kp D  &kp N3  &kp N2  &kp N1  &kp N0  &sk LBKT  &kp F1  &kp F2  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp Q  &kt W  &kp F3  &kp N4  &kp F5  &kp R  &kp F  &kp F4  &kp F8  &sk F6  &kp RSHFT  &kp LGUI  &kp GRAVE  &kp RIGHT_BRACE  &kp LEFT_BRACE  &kp LSHFT  &kp N9  &kp N8  &kp N7  &kp N6  &kp RALT  &sk F12  &sk F11  &sk F10  &sk F9  &kp I  &kp O  &kp MINUS  &kp N5  &sk PLUS  &kp N  &kp P  &kp PLUS  &kp  &sk F7
             >;
         };
     };
