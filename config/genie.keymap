@@ -11,17 +11,17 @@
 
             bindings = <
 
-                &none    &kp Q   &kp W   &kp E   &kp R 
-                &none    &kp A   &kp S   &kp D   &kp F 
-                &none    &kp Z   &kp X   &kp C   &kp V 
-                &none    &none   &kp T   &kp G   &kp B 
-                &none    &none   &none   &none   &none 
+                &trans   &kp Q   &kp W   &kp E   &kp R 
+                &trans   &kp A   &kp S   &kp D   &kp F 
+                &trans   &kp Z   &kp X   &kp C   &kp V 
+                &trans    &trans   &kp T   &kp G   &kp B 
+                &trans    &trans   &trans   &trans   &trans 
 
-                &none    &none   &none   &none   &none 
-                &none    &none   &none   &none   &none 
-                &none    &none   &none   &none   &none 
-                &none    &none   &none   &none   &none 
-                &none    &none   &none   &none   &none 
+                &trans    &trans   &trans   &trans   &trans 
+                &trans    &trans   &trans   &trans   &trans 
+                &trans    &trans   &trans   &trans   &trans 
+                &trans    &trans   &trans   &trans   &trans 
+ 
 
             >;
         };
