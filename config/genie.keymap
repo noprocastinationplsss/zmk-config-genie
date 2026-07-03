@@ -23,17 +23,17 @@
 
         numbersAndFkeys {
             bindings = <
-&kp  &kp  &kp  &kp LBKT  &kp RBKT  
-&kp  &kp N3  &kp N2  &kp N1  &kp N0  
-&sk LBKT  &kp F1  &kp F2  &kp F3  &kp F4  
-&kp  &kp  &kp  &kp N4  &kp F5  
-&kp  &kp  &kp  &kp  &sk F6  
-
-&kp  &kp ) &kp ( &kp }  &kp { 
-&kp  &kp N9  &kp N8  &kp N7  &kp N6  
-&kp  &sk F12  &sk F11  &sk F10  &sk F9  
-&kp  &kp  &kp MINUS  &kp N5  &sk F8  
-&kp  &kp  &kp  &kp  &sk F7
+                    &kp  &kp  &kp  &kp LBKT  &kp RBKT  
+                    &kp  &kp N3  &kp N2  &kp N1  &kp N0  
+                    &sk LBKT  &kp F1  &kp F2  &kp F3  &kp F4  
+                    &kp  &kp  &kp  &kp N4  &kp F5  
+                    &kp  &kp  &kp  &kp  &sk F6  
+                    
+                    &kp  &kp ) &kp ( &kp }  &kp { 
+                    &kp  &kp N9  &kp N8  &kp N7  &kp N6  
+                    &kp  &sk F12  &sk F11  &sk F10  &sk F9  
+                    &kp  &kp  &kp MINUS  &kp N5  &sk F8  
+                    &kp  &kp  &kp  &kp  &sk F7
             >;
         };
     };
