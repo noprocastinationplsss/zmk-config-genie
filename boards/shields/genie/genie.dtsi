@@ -31,8 +31,10 @@
 
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
-		diode-direction = "row2col";
-		row-gpios
+		diode-direction = "col2row";   // i replaced the col2row with row2col and boy did my laptop went haywire 🤣🤣🤣🤣 
+		row-gpios                       // it started pressing all the keys and like my laptop keyboard
+                                        // was not functioning properly for a while
+                                        
 			= <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
             , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 1
             , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 2
