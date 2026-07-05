@@ -2,7 +2,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 / {
     chosen {
-        zmk,physical-layout = &physical_layout_genie;
+        zmk,physical-layout = &physical_layout_0;
     };
 };
 
