@@ -7,16 +7,7 @@
 
         default_layer {
             bindings = <
-&kp N1  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  // row 1 left part 
-&kp S  &kp D  &kp F  &kp N6  &kp Z  &kp X  &kp C  // row 1  right part
-&kp N1  &kp A  &kp S  &kp D  &kp F  &kp G  &kp B    //row 2  left part
-&kp N9  &kp N2  &kp N3  &kp N4  &kp MINUS  &kp SEMI  &kp O  // row 2 right part
-&kp I  &kp U  &kp APOS  &kp P  &kp L  &kp K  &kp J  // row 3 left part
-&kp BSLH  &kp FSLH  &kp DOT  &kp COMMA  &kp M  &kp LGUI  &kp TAB  // row 3 right part
-&kp Y  &kp H  &kp N  // row 4 left part(thumb)
-&kp +  &kp #  &kp !  // row 4 right part (thumb)
-&kp @ // row5 left part 
-&kp &   // row 5 right part
+&kp N1  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp A  &kp S  &kp D  &kp F  &kp N6  &kp Z  &kp X  &kp C  &kp V  &kp GRAVE  &kp LBKT  &kp T  &kp G  &kp B  &kp N5  &kp RBKT  &kp N2  &kp N3  &kp N4  &kp MINUS  &kp SEMI  &kp O  &kp I  &kp U  &kp APOS  &kp P  &kp L  &kp K  &kp J  &kp BSLH  &kp FSLH  &kp DOT  &kp COMMA  &kp M  &kp EQUAL  &kp N0  &kp Y  &kp H  &kp N  &kp PLUS  &kp HASH  &kp EXCL  &kp AT_SIGN  &kp AMPERSAND
             >;
         };
     };
