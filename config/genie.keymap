@@ -2,18 +2,38 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <23 22>;
+        };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <18 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp Y  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp GRAVE  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp N5  &kp N3  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp ENTER  &kp CAPS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp N  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp LCTRL  &kp SPACE  &kp BSPC  &mo 1  &kp LSHFT  &kp TAB  &kp LALT  &kp LGUI
+&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp Y  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp GRAVE  &kp LCTRL  &kp A  &mt LEFT_CONTROL S  &mt LEFT_SHIFT D  &kp F  &kp G  &kp N5  &kp N3  &kp H  &kp J  &mt RIGHT_SHIFT K  &mt LEFT_CONTROL L  &kp SEMI  &kp ENTER  &kp CAPS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &tog 2  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp LCTRL  &kp SPACE  &mo 1  &kp BACKSPACE  &kp LSHFT  &kp TAB  &kp LALT  &kp LGUI
             >;
         };
 
         symbolsAndNumbers {
             bindings = <
 &kp BSLH  &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOLLAR  &trans  &trans  &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp TILDE  &kp FSLH  &kp PIPE  &kp LEFT_PARENTHESIS  &kp KP_DOT  &kp KP_COMMA  &kp QUESTION  &kp UNDERSCORE  &trans  &trans  &kp MINUS  &kp AT_SIGN  &kp HASH  &kp QUESTION  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp CARET  &kp N7  &kp N8  &kp N9  &kp N0  &kp N6  &trans  &trans  &kp N5  &kp N1  &kp N2  &kp N3  &kp N4  &kp FSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        nav {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP  &kp K_VOLUME_DOWN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &kp UP  &kp DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
