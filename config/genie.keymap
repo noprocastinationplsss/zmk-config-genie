@@ -28,7 +28,7 @@
 
         symbolsAndNumbers {
             bindings = <
-&kp BSLH  &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOLLAR  &trans  &trans  &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp TILDE  &kp FSLH  &kp PIPE  &kp LEFT_PARENTHESIS  &kp DOT  &kp COMMA  &kp QUESTION  &kp UNDERSCORE  &trans  &trans  &kp MINUS  &kp AT_SIGN  &kp HASH  &kp QUESTION  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp CARET  &kp N7  &kp N8  &kp N9  &kp N0  &kp N6  &trans  &trans  &kp N5  &kp N1  &kp N2  &kp N3  &kp N4  &kp FSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp BSLH  &kp APOS  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOLLAR  &trans  &trans  &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp TILDE  &kp FSLH  &kp PIPE  &kp LEFT_PARENTHESIS  &kp DOT  &kp COMMA  &kp QUESTION  &kp UNDERSCORE  &trans  &trans  &kp MINUS  &kp AT_SIGN  &kp HASH  &kp QUESTION  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp CARET  &kp N7  &kp N8  &kp N9  &kp N0  &kp N6  &trans  &trans  &kp N5  &kp N1  &kp N2  &kp N3  &kp N4  &kp FSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
