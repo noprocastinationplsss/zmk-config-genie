@@ -17,7 +17,7 @@ config ZMK_SPLIT
 	default y
 
 endif	
-endif
+
 ZMK_RGB_UNDERGLOW_BRT_MAX=80
 ZMK_RGB_UNDERGLOW_EXT_POWER=n
 
