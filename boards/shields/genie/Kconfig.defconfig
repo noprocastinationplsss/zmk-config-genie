@@ -17,6 +17,11 @@ config ZMK_SPLIT
 	default y
 
 endif	
+endif
+ZMK_RGB_UNDERGLOW_BRT_MAX=80
+ZMK_RGB_UNDERGLOW_EXT_POWER=n
+
+
 #   commented out the below part bcz its AI
 #  if SHIELD_MYBOARD_LEFT || SHIELD_MYBOARD_RIGHT
 #  
