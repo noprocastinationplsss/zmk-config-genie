@@ -41,7 +41,7 @@
 
         layer_3 {
             bindings = <
-&bt BT_NXT  &kp  &bt BT_CLR  &bt BT_CLR_ALL  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &bt BT_PRV  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp  &kp  &kp  &kp  &rgb_ug RGB_COLOR_HSB(283,30,63)  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp  &kp  &kp  &kp  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp
+&bt BT_NXT  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_PRV  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(283,30,63)  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
