@@ -1,5 +1,4 @@
 #include <dt-bindings/led/led.h>
-include "genie.dtsi"
 
 &pinctrl {
     spi3_default: spi3_default {
