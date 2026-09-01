@@ -27,7 +27,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             hold-trigger-key-positions = <17 16 15 18 23 24 25 26>;
-            flavor = "balanced";
+            flavor = "tap-unless-interrupted";
         };
     };
 
